@@ -2,7 +2,7 @@
 
 :root {
     --branco: white;
-    --cor-de-fundo: #030637;
+    --cor-de-fundo: #3572EF;
     --cor-de-senha: #910A67;
     --fundo-texto: #3C0753;
     --borda: #720455;
@@ -14,7 +14,19 @@
 }
 
 body {
-    color: var((--branco))
-    background-color: var((--cor-de-fundo))
-    font-family: var((--fonte))
+    color: var(--branco);
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte);
+}
+.titulo_principal{
+    font-family: var(--fonte);
+    font-size: 32px;
+}
+.titulo_secundario{
+    font-size: 24px;
+}
+.conteudo_titulo{
+    text-align: center;
+    margin-top: 80px;
+
 }
