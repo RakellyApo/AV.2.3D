@@ -1,7 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Savate:ital,wght@0,200..900;1,200..900&display=swap');
 :root{
     --branco:white; 
     --cor-de-fundo:#030637;
     --cor-de-senha:#910A67;
     --fundo-texto:#3C0753;
     --borda:#720455;
+    --fonte: 'Embed code', sans-serif;
+}
+*{
+    font-weight: 500;
+}
+body{
+    color:var(--branco)
+    background-color: var(#030637)
+    font-family:var(var(--fonte))
 }
