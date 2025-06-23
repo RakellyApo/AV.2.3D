@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <search class="conteudo_senhas">
+    <section class="conteudo_senhas">
         <div class="conteudo_titulo">
             <img class="cadeado_conteudo" src="cadeado.png" alt="cadeado preto">
             <h2 class="titulo_principal">gerador de senha</h2>
@@ -19,18 +19,50 @@
             <label for="senha">senha</label>
             <input name="senha" type="text" id="campo_senha">
         </div>
-        <div class="paremetro">]
+        <div class="parametro">
             <h3 class="parametro_titulo">
-                persinalise sua senha
+                Personalise sua senha
             </h3>
             <div class="parametro_coluna_senha">
-                <h4 class="paremetro_senha_titulo">
-                    número de caracteres
+                <h4 class="parametro_senha_titulo">
+                    Número de caracteres
                 </h4>
-
+                <div class="parametro_senha_botoes">
+                    <button class="parametro-senha_botao">
+                        -
+                    </button>
+                    <p class="parametro_senha_texto">12</p>
+                    <button class="parametro-senha_botao">
+                        +
+                    </button>
+                </div>
+            </div>
+            <div class="parametro_senha">
+                <h4 class="parametro_senha_titulo">
+                    Caracteristicas da senha
+                </h4>
+                <div class="parametro_senha_checkbox">
+                    <input name="maiúsculo" type="checkbox" class="checkbox" checked>
+                    <label for="maiúsculo">Letras maiúscula</label>
+                </div>
+                <div class="parametro_senha_checkbox">
+                    <input name="minusculo" type="checkbox" class="checkbox">
+                    <label for="minusculo">Letras minusculo</label>
+                </div>
+                <div class="parametro_senha_checkbox">
+                    <input name="numeros" type="checkbox" class="checkbox">
+                    <label for="numeros">Letras numeros</label>
+                </div>
+                <div class="parametro_senha_checkbox">
+                    <input name="simbolos" type="checkbox" class="checkbox">
+                    <label for="simbolos">Letras simbolos</label>
+                </div>
+                <h4 class="parametro-senha_titulo">
+                    Força da senha
+                </h4>
             </div>
         </div>
-    </search>
+    </section>
 </body>
 
 </html>

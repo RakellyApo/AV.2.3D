@@ -2,7 +2,7 @@
 
 :root {
     --branco: white;
-    --cor-de-fundo:#383369;
+    --cor-de-fundo: #383369;
     --cor-de-senha: #910A67;
     --fundo-texto: #3C0753;
     --borda: #720455;
@@ -54,11 +54,30 @@ body {
     font-size: 40px;
     width: 70%;
 }
-#campo_senha:focus{
+
+#campo_senha:focus {
     outline: none;
 }
-.conteudo_senha{
+
+.conteudo_senha {
     max-width: 1200px;
     margin: 0 auto;
 
+}
+
+.parametro {
+    background-color: var(--fundo-texto);
+    border: 2px solid var(--borda);
+    margin-top: 32px;
+    padding: 24px;
+}
+
+.parametro-senha_titulo {
+    font-size: 24px;
+}
+
+.parametro_coluna_senha {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
